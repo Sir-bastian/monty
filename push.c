@@ -1,14 +1,11 @@
 #include "monty.h"
-
 /**
-* push - Pushes an element to the stack.
-*@head: Head of the stack
-*@counter:Line number
-*
-*Return - No return
+ * f_push - add node to the stack
+ * @head: stack head
+ * @counter: line_number
+ * Return: no return
 */
-
-void push(stack_t **head, unsigned int counter)
+void f_push(stack_t **head, unsigned int counter)
 {
 	int n, j = 0, flag = 0;
 
